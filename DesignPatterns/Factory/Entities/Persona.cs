@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Builder
+namespace DesignPatterns.Factory.Entities
 {
     public class Persona
     {
         public string Nombre { get; set; }
+        public string Apellido { get; set; }
         public int Edad { get; set; }
         public string Direccion { get; set; }
         public string Telefono { get; set; }
-        public string Email { get; set; }
     }
 }

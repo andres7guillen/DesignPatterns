@@ -15,8 +15,4 @@
     <ProjectReference Include="..\DesignPatternsDomain\DesignPatternsDomain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Adapter\" />
-  </ItemGroup>
-
 </Project>

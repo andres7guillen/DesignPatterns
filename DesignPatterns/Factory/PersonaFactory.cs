@@ -1,4 +1,5 @@
 ﻿using CSharpFunctionalExtensions;
+using DesignPatterns.Factory.Entities;
 using DesignPatternsDomain.Entities;
 using DesignPatternsDomain.Notifications;
 using DesignPatternsDomain.Specifications.Implementations;
@@ -9,9 +10,9 @@ namespace DesignPatterns.Factory
 {
     public class PersonaFactory
     {
-        ISpecification<Persona> _specification;
+        ISpecification<DesignPatternsDomain.Entities.Persona> _specification;
 
-        public PersonaFactory(ISpecification<Persona> specification)
+        public PersonaFactory(ISpecification<DesignPatternsDomain.Entities.Persona> specification)
         {
             _specification = specification;
             //_personaValidationNotification = new PersonaValidationNotification();
