@@ -23,11 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InmutabilityWithCopy", "InmutabilityWithCopy", "{18E43B14-838C-44B3-A5D2-4D3CE8EF4841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutabilityWithCopy", "ImmutabilityWithCopy\ImmutabilityWithCopy.csproj", "{CF49BC25-C02D-4DA6-A64A-E262B919064F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmutabilityWithCopy", "ImmutabilityWithCopy\ImmutabilityWithCopy.csproj", "{CF49BC25-C02D-4DA6-A64A-E262B919064F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{9B4DB313-7020-470C-A2F3-0C804C9F0509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{C2E6496F-CB5B-4C49-AF76-92EA47C5D6EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{C2E6496F-CB5B-4C49-AF76-92EA47C5D6EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryFunction", "FactoryFunction", "{06458F3F-07A7-4592-9C63-0C554DB7D959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryFunction", "FactoryFunction\FactoryFunction.csproj", "{ACC4C25A-D5F7-444B-A60C-A0C9958FAF0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{C2E6496F-CB5B-4C49-AF76-92EA47C5D6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E6496F-CB5B-4C49-AF76-92EA47C5D6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E6496F-CB5B-4C49-AF76-92EA47C5D6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC4C25A-D5F7-444B-A60C-A0C9958FAF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC4C25A-D5F7-444B-A60C-A0C9958FAF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC4C25A-D5F7-444B-A60C-A0C9958FAF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC4C25A-D5F7-444B-A60C-A0C9958FAF0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,8 @@ Global
 		{CF49BC25-C02D-4DA6-A64A-E262B919064F} = {18E43B14-838C-44B3-A5D2-4D3CE8EF4841}
 		{9B4DB313-7020-470C-A2F3-0C804C9F0509} = {DF2394BE-60AA-4D06-BE85-5480212A7CB0}
 		{C2E6496F-CB5B-4C49-AF76-92EA47C5D6EC} = {9B4DB313-7020-470C-A2F3-0C804C9F0509}
+		{06458F3F-07A7-4592-9C63-0C554DB7D959} = {DF2394BE-60AA-4D06-BE85-5480212A7CB0}
+		{ACC4C25A-D5F7-444B-A60C-A0C9958FAF0F} = {06458F3F-07A7-4592-9C63-0C554DB7D959}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CFCA424-76BD-4BB2-B219-98C4BB2A64E2}
